@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state={
-      title: 'React Simple CRUD Application',
+      title: 'React_CRUD Application',
       act: 0,
       index: '',
       datas: []
@@ -75,8 +75,8 @@ class App extends Component {
       <div className="App">
         <h2>{this.state.title}</h2>
         <form ref="myForm" className="myForm">
-          <input type="text" ref="name" placeholder="your name" className="formField" />
-          <input type="text" ref="address" placeholder="your address" className="formField" />
+          <input type="text" ref="name" placeholder="Your name" className="formField" />
+          <input type="text" ref="address" placeholder="Your address" className="formField" />
           <button onClick={(e)=>this.fSubmit(e)} className="myButton">submit </button>
         </form>
         <pre>
